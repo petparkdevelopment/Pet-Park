@@ -15,7 +15,7 @@ class Beginning: UIViewController {
         
         // USER IS NOT LOGGED IN
         if PFUser.current() == nil {
-            let aVC = storyboard?.instantiateViewController(withIdentifier: "Password") as! Password
+            let aVC = storyboard?.instantiateViewController(withIdentifier: "IntroScene") as! PageViewController
             aVC.modalTransitionStyle = .crossDissolve
             present(aVC, animated: true, completion: nil)
         }
