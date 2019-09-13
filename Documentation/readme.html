@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MyStream | iOS - Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plan flat skin for Bootstrap">
+    <meta name="author" content="cubycode">
+    <!-- Google Web Font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,700,300italic' rel='stylesheet' type='text/css'>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/80.png"/>
+    <!-- Bootstrap 3 Plan styles -->
+    <link id="plan-theme" href="assets/css/bootstrap.plan.amethyst.min.css" rel="stylesheet">
+    <!-- Bootstrap Select -->
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <!-- Plan UI -->
+    <link id="plan-theme-extra" href="assets/css/plan.amethyst.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!-- Docs Custom styles -->
+<style>
+body {
+  padding: 10px 0 0 0;
+}
+footer {
+  background-color: white;
+  border-top: 1px solid #ddd;
+  padding: 30px;
+  margin-top: 50px;
+}
+a {
+  font-weight: 700;
+}
+hr {
+  margin-top: 100%;
+  margin-bottom: 20px;
+  display: block;
+  height: 1px;
+  border-top: 2px solid #555;
+}
+
+.sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f3f3f3;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 15px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+</style>
+
+</head>
+<body>
+<div class="sidenav">
+
+    <div class="text-center">
+      <h4>MyStream | iOS</h4>
+      <h4 style="color: #777;">Documentation</h4>
+      <img src="assets/img/80.png" width="60">
+      <br><br>
+    </div>
+    <ul class="nav nav-stacked nav-spaced">
+
+      <li><a href="#tutorials">Useuful tutorials <i class="fa fa-exclamation-circle pull-right"></i></a></li>
+      <li><a href="#customization">Customization <i class="fa fa-cog pull-right"></i></a></li>
+      <li><a href="#configuration">Configuration <i class="fa fa-edit pull-right"></i></a></li>
+      <li><a href="#parse">Parse database setup <i class="fa fa-database pull-right"></i></a></li>
+      <li><a href="#facebook">Facebook Login setup <i class="fa fa-facebook pull-right"></i></a></li>
+      <li><a href="#push">Push Notifications setup <i class="fa fa-bell pull-right"></i></a></li>
+      <li><a href="#admob">AdMob Interstitial setup <i class="fa fa-google pull-right"></i></a></li>
+      <li><a href="#faq">F.A.Q. <i class="fa fa-question-circle pull-right"></i></a></li>
+      <li><a href="#website">Website version <i class="fa fa-link pull-right"></i></a></li>
+      <li><a href="#greetings">App Rating <i class="fa fa-star pull-right"></i></a></li>
+
+    </ul>
+  </div>
+</div>
+
+<div class="main">
+
+ <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+            <!-- USEFUL TUTORIALS -->
+            <section id="tutorials">
+                <h2 class="title">Useful tutorials</h2>
+                            
+                                • If you need to learn the process of publishing apps on the App Store, read this tutorial: <strong> <a href="https://hubpages.com/technology/iOS-How-to-submit-an-app-to-the-App-Store" target="_blank">How to publish an app to the App Store</a></strong>
+                                <br><br>
+
+                                • If you  need to learn about Xcode and its UI, read these articles:<br> 
+                                <strong> <a href="https://hubpages.com/technology/iOS-About-Xcode-and-its-interface" target="_blank">About Xcode and its UI interface - Part 1</a></strong><br>
+                                <strong> <a href="https://hubpages.com/technology/iOS-About-Xcode-and-its-UI-Interface-Part-2" target="_blank">About Xcode and its UI interface - Part 2</a></strong>
+
+                                <br><br>
+
+                                • Want to get more info about Parse SDK and its Dashboard on back4app? Check this out: <strong> <a href="https://hubpages.com/technology/Parse-SDK-will-not-shutdown-in-thanks-to-back4app" target="_blank">About Parse SDK and back4app</a></strong>
+                                <br><br>
+
+                                 • Want to host Parse Server on Heroku? Check this out: <strong> <a href="https://hubpages.com/technology/How-to-host-Parse-Server-and-its-Dashboard-on-Heroku" target="_blank">Host Parse Parse Server and Dashboard on Heorku</a></strong>
+                                <br><br>
+
+            </section>
+
+
+
+
+
+            <!-- CUSTOMIZATION -->
+            <section id="customization">
+                <hr>
+                <h2 class="title">Customization</h2>
+                
+                • <strong>Bundle Identifier & App name:</strong> Once you have generated a new App ID and Distribution Provisioning file from the <a href="https://developer.apple.com/ios/manage/overview/index.action" target="_blank"> Apple Developer portal</a> (in order for you to be able to upload the binary of your app), you must change the <code>Bundle Identifier</code> accordingly to the one you generated in your app's <strong>Provisioning Profile</strong>. <br>
+                
+                You must also change the <code>Display Name</code> as you wish, so you’ll see your own app’s name underneath the app icon (see below):<br>
+                <div class="col-lg-12 col-sm-6 ">
+                    <div class="thumbnail"><img src="assets/img/bundleid.jpg"></div>
+                </div>
+                <br><br>
+
+
+                <div class="col-sm-6 col-lg-12">
+                    <div class="alert alert-danger">
+                        <strong>NOTE:</strong> Do not change the <strong>MyStream</strong> folder’s name or Project’s name, otherwise XCode won’t recognize the app and you won’t be able to test it on the iOS Simulator nor Archive it for AppStore publishing.<br>
+                        Also, while preparing your app’s page for Review on iTunes Connect you should write something about how your app works in the Notes field and provide a demo account as well. This is because lately Apple reviewers are acting a bit bad and may reject your app for stupid reasons, we don’t want that to happen, although if it will, don’t get upset, just wait 2-3 days and resubmit a new binary for Review until you get a good reviewer :)
+                    </div>
+                </div>
+
+
+                • <strong>Archive the App:</strong> To archive the app and be able to upload it to the iTunes App Store, select <code>Generic iOS Device</code> on the devices list and then click on <code>Product -> Archive</code> to launch the <strong>Organizer</strong> and archive your app (see below):<br>
+                <div class="col-lg-12 col-sm-6 ">
+                    <div class="thumbnail"><img src="assets/img/archive.jpg"></div>
+                </div>
+                <br><br>
+
+                
+                • <strong>User Interface:</strong> If you want to edit the User Interface of this app, you can do so by editing the Storyboard file called <code>Main.storyboard</code>. You can edit buttons, labels and ImageViews via the <strong>Inspector</strong> panel on the right side of the Xcode window, and select them by the the <strong>Document Outline</strong> panel.
+                                
+                <div class="alert alert-danger">Please always use the latest version of Xcode.</div>
+
+
+                • <strong>Images:</strong> You can easily change App icons, logo, buttons and other images by accessing the <code>Assets.xcassets</code> folder and editing the <code>.png</code> and <code>.jpg</code> images in there, just do not rename them so XCode will still recognize them.<br>
+                Make your reskin and save your new <code>.png</code> files with the same names as the existing ones in the project.
+                <br><br>
+
+                • <strong>Terms Of Service HTML file:</strong> You can find an HTML file called <code>tou.html</code> into the XCode project, that’s a file you can edit as you wish in order to get approved by Apple under the EULA agreement, since this app is providing public contents that may also be reported by users and must be moderated by you or who works with you. You must edit it as you wish, since there is <code>APP_NAME</code> here and there, replace it with your app’s name and read it carefully before publishing the app on the App Store.
+                <br><br>
+
+                <strong>IMPORTANT:</strong> You should also check the <code>Privacy Policy</code> statements on the bottom of that file and edit the contact email addres into your own email adress:
+<pre>
+  href= <font color="red"> "mailto:support@yourdomain.com"</font>><font color="red"> support@yourdomain.com</font>
+</pre>
+                That's important for EU GDPR laws since 25 May 2018.
+                <div class="well"> 
+                  In case some user will ask you to delete his/her account, you must enter your Parse Dashboard, search for its <code>objectId</code> or <code>username</code> in all Classes, and delete the rows that contain such objectId in their cells (Pointers included).
+                </div>
+                <br>
+                    
+            </section>
+
+
+
+
+
+            <!--  CONFIGURATION -->
+            <section id="configuration">
+                <hr>
+                <h2 class="title">Configuration</h2>
+
+                                Head over <code>Configs.swift</code> file and check out the <strong><font color="green">comments</font></strong> in such file which will help you editing this template.
+                                <br><br><br>
+
+
+
+                                • <strong>Add Stickers:</strong> This app contains 13 sticker png images, in order for you to add stickers to this app you need to add new Image Sets in the <code>STIKCERS</code> folder (in the <code>Assets.xcassets</code> folder) in Xcode and name them progressively.<br><br>
+                                Example: if you want to add a 14th sticker, do the following steps:<br>
+                                1. Create your png images, 3x, 2x and 1x size (check the existing ones as a size reference)<br>
+                                2. Create an Image Set in the <code>STIKCERS</code> folder and drag your images into the 3x, 2x and 1x cells.<br> 3. Rename that Image Set as <code>s13</code> and enter <code>Configs.swift</code>.<br>
+                                4. Change the number of the following variable into <code>14</code>:
+<pre>let STICKERS_AMOUNT = <font color="blue"> 14</font></pre>
+                                
+                                <br>
+                                You have to repeat the steps above for all new stickers you'll add in this app. If you're wondering why the Image Set's name is <code>s13</code> and the <code>STICKERS_AMOUNT</code> is <code>14</code>, that's because the app creates an array of stickers and Arrays are 0-indexed, so the <code>s0</code> is the <code>1st</code> sticker, the <code>s1</code> is the <code>2nd</code> sticker, and so on. You can easily understand that the <code>14th</code> sticker of the example above is at <code>13 index</code> position, and that's why your Image Set is named <code>s13</code> ;)
+                    
+            </section>
+
+
+
+
+
+
+            <!-- PARSE DATABASE SETUP -->
+            <section id="parse">
+                <hr>
+                <h2 class="title">Parse Database setup</h2>
+
+                Before using the app, you must create your own App on your <a href="https://dashboard.back4app.com/apps" target="_blank">back4app Dashboard</a>. The link we’ve provided above points already to the back4app's Dashboard, but in case you don’t have an account on back4app.com yet, you’ll be redirected to the Sign Up page.
+                <br><br>
+
+                Once you’ll be signed in on back4app, enter your Dashboard and simply click on the <strong>Build new app</strong> button, give your app a name and a brief description (optional), click <code>Next</code> and you’ll be redirected to the settings page. <br>
+                Click on <strong>SETTINGS</strong> in the <code>Core Settings</code> box, copy the <code>App ID</code> and <code>Client Key</code> strings and replace the existing ones into <code>Configs.swift</code>
+                <br><br>
+                            
+                <div class="col-lg-12 col-sm-6 ">
+                    <div class="thumbnail"><img src="assets/img/build-new-app.jpg"></div>
+                    <div class="thumbnail"><img src="assets/img/appclientkey.jpg"></div>
+                </div>
+
+                            
+                Strings to replace in the <code>Configs</code> file in the app's project:<br>
+<pre>
+    let PARSE_APP_ID = "pJf7oFpFep7wDQTqEM6RDarUhuZ8hmxQ7zofOIxQ"
+    let PARSE_CLIENT_KEY = "1BY9Ojxt0gwMzgpGF5noXWbLc1p2fJ6Do3mrrRoD"
+</pre>
+<br><br>
+                <div class="well">
+                        <strong>Please note that users can instantly report offensive/inappropriate content and users</strong>, so you should daily or weekly check your Parse Dashboard for reported content and take action for them, you can check the <code>isReported</code> and <code>reportedBy</code> columns of the <strong>Comments, Streams</strong> and <strong>User</strong> classes.<br>
+                        For the <strong>Streams</strong> and <strong>Comments</strong> classes, the <code>reportedBy</code> is an array of Users objectId's who reported content, which means that those users won't see those content, but other users will still see them, unless you will delete the reported rows in your Parse Dashboard.<br>
+                        <strong>PLEASE NOTE </strong> that if you'll remove a row in those classes, you will have to find all the references to its <code>objectId</code> in the other classes too and remove those rows where its <code>objectId</code> is contained.   
+                </div>
+                        
+
+            </section>
+
+
+
+
+
+            <!-- FACEBOOK iOS LOGIN SETUP -->
+            <section id="facebook">
+                <hr>
+                <h2 class="title">Facebook Login setup</h2>
+
+                            1. Create your own Facebook App here: <a href="https:/developers.facebook.com/apps/" target="_blank">Facebook developer console</a><br>
+                            2. Open your <a href="https://developers.facebook.com/apps" target="_blank">Facebook App Dashboard</a> and select your application.<br>
+                            3. Select <strong>Settings</strong> from the left navigation.<br>
+                            4. Click <strong>Add Platform</strong> at the bottom of the page and select <strong>iOS</strong>.<br>
+                            5. Locate your Bundle Identifier in Xvode and copy it to your clipboard.<br>
+                            6. Return to the <strong>App Dashboard</strong> and paste your <code>Bundle Identifier</code> into the <strong>Bundle ID</strong> field.<br>
+                            7. Enable <strong>Single Sign On</strong>.<br>
+                            8. Click <strong>Save Changes</strong> at the bottom of the App Dashboard window.<br>
+
+                            <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/ios-facebook-login.jpg"></div>
+                            </div>
+                            <br><br>
+
+
+                            9. Enter your app <strong>Server Settings</strong> on back4app, scroll down to the <strong>Facebook Login</strong> section and click <strong>SETTINGS</strong><br>
+
+                             <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/server-settings.jpg"></div>
+                            </div>
+                            <br><br>
+
+
+                            10. Paste your <code>Facebook App ID</code> in the empty filed and click the <strong>+</strong> button, then <strong>SAVE</strong><br>
+                            
+                            <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/facebook-login-save.jpg"></div>
+                            </div>
+                            <br><br>
+                
+
+                            11. Go in Xcode, enter <code>Info.plist</code>, expand the <code>URL types</code> row as shown below, paste your Facebook App Id with <strong>fb</strong> prefix in the <code>Item 0</code> row, your Facebook App Id without <strong>fb</strong> in the <code>FacebookAppID</code> row and type the name of your app in the <code>FacebookDisplayName</code> row.<br>
+
+                            <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/facebook-login-infoplist.jpg"></div>
+                            </div>
+                            <br><br>
+
+
+                            12. Lastly, enter the <strong>App Review</strong> section and make your app oublic:
+                              <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/fblogin2.png"></div>
+                            </div>
+                            <br><br>
+                            
+                            <strong>You’re done with setting up Facebook Login in this app, now you can test it.</strong>
+                            <br>
+
+
+            </section>
+
+
+
+
+
+
+            <!-- PUSH NOTIFICATIONS SETUP -->
+            <section id="push">
+                <hr>
+                <h2 class="title">Push Notifications setup</h2>
+
+                            1. Follow this tutorial to create your <strong>Development and Production APS certificates: <a href="http:/hubpages.com/technology/How-to-create-APN-Push-Notifications-certificates-on-iOS" target="_blank">http:/hubpages.com/technology/How-to-create-APN-Push-Notifications-certificates-on-iOS</a></strong><br>
+                            Once you've generated your .p12 files, save them on the Desktop.
+                            <br><br>
+
+
+                            2. Open your App’s dashboard on back4app, scroll down to <strong>iOS Push Notifications</strong> box and click <strong>SETTINGS</strong>
+                            <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/ios-push-settings1.jpg"></div>
+                            </div>
+                            <br><br>
+
+                            3. Click <strong>Choose file</strong> to upload both your <code>.p12</code> certificates. Please note that you must upload them one by one, so upload your Development certificate first and click <strong>SEND</strong>, then upload the Production certificate and click <strong>SEND</strong> again. <br>
+                            Once you're done, click BACK to go back to your app's dashboard.
+
+                            <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/ios-push-settings2.jpg"></div>
+                            </div>
+                            <br><br>
+
+
+
+                            4. Look for the <strong>Cloud Code</strong> box in your app's dashboard, click <strong>SETTINGS</strong> to enter it, then click  <strong>Choose file</strong> to upload the <code>main.js</code> file included in the package of this app into CloudCode.<br>
+                             Lastly, click <strong>SAVE</strong><br>
+
+                            <div class="col-lg-12 col-sm-6 ">
+                                <div class="thumbnail"><img src="assets/img/mainjs1.jpg"></div>
+                                <div class="thumbnail"><img src="assets/img/mainjs2.jpg"></div>
+                            </div>
+                            <br><br><br>
+
+                            <strong>You’re done with setting up your app to send/receive Push Notifications!</strong>
+                            <br>
+
+
+            </section>
+                  
+
+
+            
+
+            <!-- ADMOB SETUP -->
+            <section id="admob">
+                <hr>
+                <h2 class="title">AdMob Intersitial ads setup</h2>
+
+                    In order for you to display your own AdMob Interstitial ads, you must create a <strong>Interstitial Ad UNIT ID</strong> on <a href="https://apps.admob.com/v2/home" target="_blank">the AdMob website</a>.<br>
+                    Once you’ve got your Unit ID, replace the <font color="red">red</font> string below with your AD UNIT ID in <code>Configs.swift</code>:<br><br>
+
+<pre>
+    let ADMOB_INTERSTITIAL_UNIT_ID = "<font color="red">ca-app-pub-3940256099942544/1033173712</font>"
+</pre>
+<br><br><br>
+
+                    • <strong>Apple Review process</strong>: Sometimes it may happen that an app gets rejected once by Apple reviewers because of ads, that’s an issue we encountered too and we can’t still understand why since we then re-submitted an app without any change and it got approved, and lots of developers are angry about it as well.<br>
+                    Anyway, check out the screenshot below, you’ll get it after clicking on Submit For Review button on iTunes Connect, check the options shown below and everything should go smoothly.<br>
+                    If your app will get rejected once because of IDFA issue, don’t get mad, just resubmit a new binary to iTunes Connect via XCode and make sure to check the options below:
+                    <br><br>
+
+                    <div class="col-lg-12 col-sm-6 ">
+                        <div class="thumbnail"><img src="assets/img/idfa.png"></div>
+                    </div>
+                    <br>
+
+            </section>
+
+
+
+
+
+            <!-- F.A.Q. -->
+            <section id="faq">
+                <hr>
+                <h2 class="title">F.A.Q.</h2>
+                <br>
+
+                            <ul>
+                                <li>
+                                    <h4>About Parse SDK and back4app</h4>
+                                    Read this article for more info about back4app and Parse SDK: <a href="https://hubpages.com/technology/Parse-SDK-will-not-shutdown-in-thanks-to-back4app" target="_blank">About Parse SDK and back4app</a>
+                                </li>
+                                <br>
+
+                                <li>
+                                    <h4>Can I host Parse Server on my own server?</h4>
+                                    Yes, although I don’t provide support for the setup process, you can read the official Guide here: <a href="http://parseplatform.org" target="_blank">http://parseplatform.org</a>
+                                </li>
+                                <br>
+
+                                <li>
+                                    <h4>What about free support for this template?</h4>
+                                    I can offer free support for bugs encountered in the original code. Instead, if you’ve edited the code and messed something up with it, I may apply some fee to fix it either via TeamViewer or by checking your app project files directly on my computer.   
+                                </li>
+                                <br>
+
+                                <li>
+                                    <h4>I’m new to Xcode UI interface, any help?</h4>
+                                    Sure, start by reading this tutorial, it will surely help you get familiar with Xcode and its UI interface: <a href="https://hubpages.com/technology/iOS-About-Xcode-and-its-interface" target="_blank">About Xcode and its UI</a>
+                                </li>
+                                <br>
+
+                                <li>
+                                    <h4>Should I use the latest version of Xcode to edit this template?</h4>
+                                    Yes, I usually update all my apps to the latest version of their IDE.
+                                </li>
+                                <br>
+
+                                <li>
+                                    <h4>How do I remove AdMob Interstitial ads?</h4>
+                                    The easiest way is to use the <strong>Find</strong> tool in the left panel of the Xcode window and search for the following line of code:<br>
+
+<pre>self.showInterstitial()</pre>
+									You will get a list of swift files where that line of code is present. Just comment it out and Interstitial ads won't show up.
+                                </li>
+                                <br>
+                                
+
+                                 <li>
+                                    <h4>I get a Code signing error in Xcode</h4>
+                                    That’s a bug of Xcode with macOS, check this sample video to see how to fix it: <a href="https://youtu.be/z2LemT1_LqA" target="_blank">Fix Code sign error</a>
+                                </li>
+
+                            </ul>
+
+
+            </section>
+
+
+
+
+
+
+            <!-- WEBSITE VERISON -->
+            <section id="website">
+                <hr>
+                <h2 class="title">Website version</h2>
+
+                You need to have your own web hosting and domain in order to upload all files included in the <code>Website</code> folder of this template's package.<br>
+                                Your server must have PHP 5.4 or higher installed (GoDaddy and other hosting providers have it by default).
+                                <br>
+                                <br>
+                                Before uploading the files to your server, you can edit the with <code>Sublime Text</code> or any other text or HTML editor softwares. All images are located into the <code>assets/img/</code> folder.
+                                <br>
+                                <br>
+                                You need to open <code>Configs.php</code> and replace the existing keys with your own ones (like you did for the mobile version), what's needed in this case is your back4app app's <strong>App ID</strong>, <strong>REST API Key</strong> and <strong>Master key</strong>:
+
+<pre>
+    // REPLACE THIS STRING WITH YOUR OWN App Id FROM back4app
+    'LShV0Q5wA4FwXCjTmblIXRLuOkc52NR6aEbhzpyU', 
+    
+    // REPLACE THIS STRING WITH YOUR OWN REST API Key FROM back4app
+    'dT80vO9I5wH2dQN4Ypul1yb4E9a18UGAamzwRH69', 
+
+    // REPLACE THIS STRING WITH YOUR OWN Master Key FROM back4app
+    'RyQdN5NVJPbhXJklpt8ZOUDJGSJK3DFbdxM8FaHI' );
+</pre>
+<br><br>
+
+                                Then replace the string of the <code>$GLOBALS['WEBSITE_PATH']</code> variable with the URL where you'll upload all the files. For instance, if you upload them to your root folder (usually the <code>public_html</code> one), the URL should look like this: <code>http://www.yourwebsite.com/</code> (the "<strong>/</strong>" at the end of the URL is needed). Instead, if you uploaded the files into a specific folder of your server, the URL must be somehting like: <code>http://www.yourwebsite.com/your_folder_name</code>:
+<pre>
+    // IMPORTANT: REPLACE THE STRING BELOW WITH THE FULL URL OF THE ROOT OF YOUR WEBSITE: 
+    $GLOBALS['WEBSITE_PATH'] = <strong><font color="red">'https://www.cubycode.com/mystream/'</font></strong>;
+</pre>
+<br><br>
+                                
+                                Follow the comments of the other variables in the <code>Configs.php</code> file to edit them accordingly.
+                                <br>
+                                <br>
+                                <br><br>
+
+
+
+                                <h4>• FACEBOOK LOGIN SETUP</h4>
+                                You've previously created your Facebook app for the mobile version, so what you need to do to allow the website to login with Facebook is the following:
+                                <br>
+                                1. Click <strong>Add Platform</strong> at the bottom of the page and select <strong>Website</strong>.<br>
+                                2. In the <strong>App Domains</strong> field, type only the domain name of your website, NOT the whole URL (ex: <code>mywebsite.com</code>)<br>
+                                3. Click the <strong>Show</strong> button of the App Secret box to display it, you have to copy it and replace the existing one in <code>Configs.php</code>:
+<pre>
+    $_GLOBALS["FACEBOOK_APP_SECRET"] = <font color="red">"23159a93aa689c4a684e08dcfa74d165"</font>;
+</pre>
+<br>
+
+
+                                4. Copy the <code>App ID</code> and and replace the existing one in <code>Configs.php</code>:
+<pre>
+    $_GLOBALS["FACEBOOK_APP_ID"] = <font color="red">"1373896799328580"</font>;
+</pre>
+<br>
+                            
+                                5. In the <strong>Website</strong> section, type the full address of your website (ex: <code>http://mywebsite.com/index.php</code>).<br> 
+                                6. Click <strong>Save Changes</strong> at the bottom of the App Dashboard window.<br>
+
+                                <div class="col-lg-12 col-sm-6 ">
+                                    <div class="thumbnail"><img src="assets/img/fblogin1.jpg"></div>
+                                </div>
+                                <br><br>
+
+                                7. Now enter <code>Settings</code> in the <strong>Facebook login</strong> section and type the full URL of your website, where you have hosted all the files, with the <code>http://www.</code> prefix and the<code>/fb-callback.php</code> suffix, like this example:
+<pre>
+    http://www.mywebsite.com/fb-callback.php
+</pre> 
+<br>
+
+                                8. Switch <strong>Use Strict Mode for Redirect URIs</strong> and <strong>Enforce HTTPS</strong> into <code>Yes</code>, and finally click <strong>Save changes</strong>:
+
+                                <div class="col-lg-12 col-sm-6 ">
+                                    <div class="thumbnail"><img src="assets/img/fblogin3.png"></div>
+                                </div>
+                                <br><br>
+
+
+                                <strong>You’re done with setting up Facebook Login for the Web version.</strong>
+                                <br>
+            </section>
+
+
+
+
+
+            
+
+            <!-- GREETINGS AND RATE APP -->
+            <section id="greetings" class="smooth-goto">
+                <hr>
+                <h2 class="title">App Rating <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>
+                If you like this template, please don’t forget to rate it on your <a href="https://codecanyon.net/downloads" target="_blank"><strong>Downloads page</strong></a> on CodeCanyon!
+                <br><br>
+          </section>
+
+        </div>
+      </div>
+    </div><!-- ./ container -->
+
+</div><!-- ./ main -->
+
+
+<footer class="text-center">
+  <img src="assets/img/logo_100.png">
+  <br>
+  <p>
+    Made with <font color="#e25353"><i class="fa fa-heart"></i></font> by
+    <a href="http://cubycode.com" target="_blank"><code>cubycode</code></a>
+  </p>
+</footer>
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/plan.ui.js"></script>
+<script src="assets/js/bootstrap-select.min.js"></script>
+<script>
+$('a[href*=\\#]').on('click', function(event){     
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+});
+$('li > a').click(function() {
+    $('li').removeClass();
+    $(this).parent().addClass('active');
+});
+</script>
+</body>
+</html> 

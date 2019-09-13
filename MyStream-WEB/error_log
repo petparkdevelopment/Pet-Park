@@ -1,0 +1,796 @@
+[07-Apr-2018 01:07:28 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[10-Apr-2018 01:46:59 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[12-Apr-2018 00:55:38 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 00:55:38 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 00:55:48 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 00:55:48 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 00:55:50 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/following.php(52): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 00:55:53 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 00:55:53 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 01:51:29 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 01:51:29 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 02:26:59 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 02:26:59 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 02:27:04 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 02:27:04 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 02:27:07 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 02:27:07 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 02:27:08 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 02:27:08 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 02:27:11 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 02:27:11 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 09:44:28 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 09:44:28 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 09:44:35 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 09:44:35 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 09:44:42 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 09:44:42 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 09:45:10 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/index.php(43): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[12-Apr-2018 09:45:18 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/index.php(43): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[12-Apr-2018 09:47:12 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/index.php(43): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[12-Apr-2018 09:47:19 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/account.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 43
+[12-Apr-2018 09:47:22 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/index.php(43): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[12-Apr-2018 18:46:09 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 18:46:09 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 18:46:11 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 18:46:11 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 18:46:14 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 18:46:14 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 18:46:15 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[12-Apr-2018 18:46:15 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[12-Apr-2018 18:46:16 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/following.php(52): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 03:49:00 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[15-Apr-2018 03:49:00 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 03:49:07 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[15-Apr-2018 03:49:07 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 03:49:11 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[15-Apr-2018 03:49:11 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 03:49:13 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/following.php(52): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 03:49:16 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/account.php(51): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 18:10:59 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/index.php(43): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[15-Apr-2018 18:11:05 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/following.php(30): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[15-Apr-2018 18:11:08 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/index.php(43): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[15-Apr-2018 19:33:39 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[15-Apr-2018 19:33:39 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 19:33:43 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[15-Apr-2018 19:33:43 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 19:33:46 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/following.php(52): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 19:33:47 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[15-Apr-2018 19:33:47 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 19:33:53 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/following.php(52): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 19:33:54 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[15-Apr-2018 19:33:54 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 19:33:55 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[15-Apr-2018 19:33:55 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 19:34:12 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[15-Apr-2018 19:34:12 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 19:34:17 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/following.php(52): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 19:34:19 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[15-Apr-2018 19:34:19 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 19:42:48 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[15-Apr-2018 19:42:48 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 19:42:53 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[15-Apr-2018 19:42:53 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 19:42:55 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/following.php(52): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 19:42:59 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/account.php(51): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 19:43:08 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[15-Apr-2018 19:43:08 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[15-Apr-2018 22:34:59 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/index.php(43): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[15-Apr-2018 22:35:04 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/index.php(43): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[15-Apr-2018 22:35:06 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/index.php(43): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[15-Apr-2018 22:35:07 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/following.php(30): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[16-Apr-2018 13:13:33 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[16-Apr-2018 13:13:33 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[16-Apr-2018 13:13:43 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[16-Apr-2018 13:13:43 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[16-Apr-2018 13:13:46 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php on line 603
+[16-Apr-2018 13:13:46 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/index.php(215): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[16-Apr-2018 13:13:48 Europe/Rome] PHP Fatal error:  Uncaught Exception: Can't serialize an unsaved ParseObject in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php:1442
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(340): Parse\ParseObject->_toPointer()
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(441): Parse\ParseClient::_encode(Object(Parse\ParseUser), true)
+#2 /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php(348): Parse\ParseClient::_encodeArray(Array, true)
+#3 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(488): Parse\ParseClient::_encode(Array, true)
+#4 /home/cubyc873/public_html/mystream/src/Parse/ParseQuery.php(594): Parse\ParseQuery->buildQueryString(Array)
+#5 /home/cubyc873/public_html/mystream/following.php(52): Parse\ParseQuery->find()
+#6 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php on line 1442
+[16-Apr-2018 14:02:45 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/index.php(43): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[16-Apr-2018 14:02:50 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/index.php(43): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[16-Apr-2018 14:02:53 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/following.php(30): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[16-Apr-2018 14:02:56 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/navbar.php:66
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/index.php(43): include()
+#1 {main}
+  thrown in /home/cubyc873/public_html/mystream/navbar.php on line 66
+[17-Apr-2018 17:00:44 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/comments.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/comments.php on line 51
+[18-Apr-2018 00:02:46 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[18-Apr-2018 00:03:14 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[18-Apr-2018 11:56:49 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[18-Apr-2018 11:57:52 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[18-Apr-2018 11:58:05 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[18-Apr-2018 11:59:06 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[20-Apr-2018 15:13:43 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/index.php:240
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/index.php on line 240
+[20-Apr-2018 15:18:52 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/account.php:284
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 284
+[20-Apr-2018 16:12:06 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/index.php:240
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/index.php on line 240
+[20-Apr-2018 16:12:21 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/index.php:240
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/index.php on line 240
+[20-Apr-2018 16:12:40 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/following.php:256
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/following.php on line 256
+[20-Apr-2018 16:12:54 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/account.php:284
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 284
+[20-Apr-2018 17:23:45 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/index.php:240
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/index.php on line 240
+[20-Apr-2018 17:23:53 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/following.php:256
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/following.php on line 256
+[29-Apr-2018 23:42:40 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/user-profile.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/user-profile.php on line 42
+[29-Apr-2018 23:43:58 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/user-profile.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/user-profile.php on line 42
+[29-Apr-2018 23:48:01 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/user-profile.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/user-profile.php on line 42
+[01-May-2018 23:49:04 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[02-May-2018 20:21:24 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[02-May-2018 20:32:20 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[04-May-2018 01:44:19 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/user-profile.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/user-profile.php on line 42
+[08-May-2018 13:35:59 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[09-May-2018 16:35:35 Europe/Rome] PHP Fatal error:  Uncaught Parse\ParseException: Bad Request in /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php:579
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseFile.php(233): Parse\ParseClient::_request('POST', 'files/avatar.jp...', NULL, '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x02\x00\x00...', false, false, 'text/html; char...')
+#1 /home/cubyc873/public_html/mystream/src/Parse/ParseFile.php(204): Parse\ParseFile->upload(false)
+#2 /home/cubyc873/public_html/mystream/fb-login-confirm.php(51): Parse\ParseFile->save()
+#3 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php on line 579
+[11-May-2018 02:06:56 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[11-May-2018 02:06:56 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/user-profile.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/user-profile.php on line 42
+[11-May-2018 02:06:56 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/cubyc873/public_html/mystream/comments.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/comments.php on line 47
+[11-May-2018 19:37:43 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[13-May-2018 15:56:54 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/user-profile.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/user-profile.php on line 42
+[13-May-2018 15:58:04 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[13-May-2018 16:23:07 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/edit-profile.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 40
+[13-May-2018 16:23:07 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[13-May-2018 16:23:07 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/cubyc873/public_html/mystream/comments.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/comments.php on line 47
+[13-May-2018 16:23:07 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/user-profile.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/user-profile.php on line 42
+[13-May-2018 16:47:59 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[17-May-2018 14:42:51 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[18-May-2018 14:21:50 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[20-May-2018 08:25:52 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/user-profile.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/user-profile.php on line 42
+[23-May-2018 12:11:34 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/edit-profile.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 40
+[24-May-2018 14:03:52 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[27-May-2018 04:00:11 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/edit-profile.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 40
+[28-May-2018 10:27:54 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[28-May-2018 10:27:56 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[28-May-2018 10:28:35 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[30-May-2018 18:35:57 Europe/Rome] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cubyc873/public_html/mystream/account.php on line 350
+[30-May-2018 18:35:57 Europe/Rome] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cubyc873/public_html/mystream/account.php on line 396
+[30-May-2018 18:36:32 Europe/Rome] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cubyc873/public_html/mystream/account.php on line 350
+[30-May-2018 18:36:32 Europe/Rome] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cubyc873/public_html/mystream/account.php on line 396
+[30-May-2018 18:36:52 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[30-May-2018 18:37:02 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[30-May-2018 18:37:06 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[25-Jun-2018 07:10:04 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[28-Jun-2018 04:25:32 Europe/Rome] PHP Fatal error:  Uncaught Parse\ParseException: Object not found. in /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php:604
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php(540): Parse\ParseClient::_request('GET', 'classes/_User/F...', NULL, NULL, false)
+#1 /home/cubyc873/public_html/mystream/user-profile.php(38): Parse\ParseObject->fetch()
+#2 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php on line 604
+[29-Jun-2018 17:35:00 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/edit-profile.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 40
+[01-Jul-2018 14:14:56 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[15-Jul-2018 22:13:10 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[24-Jul-2018 14:44:09 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/user-profile.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/user-profile.php on line 42
+[24-Jul-2018 14:52:41 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/user-profile.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/user-profile.php on line 42
+[12-Aug-2018 00:50:11 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getObjectId() on null in /home/cubyc873/public_html/mystream/account.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/account.php on line 33
+[28-Aug-2018 21:30:35 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[28-Aug-2018 21:31:04 Europe/Rome] PHP Fatal error:  Uncaught Parse\ParseException: Object not found. in /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php:604
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php(540): Parse\ParseClient::_request('GET', 'classes/Streams...', 'r:8f276fafbd56c...', NULL, false)
+#1 /home/cubyc873/public_html/mystream/delete-stream.php(23): Parse\ParseObject->fetch()
+#2 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php on line 604
+[28-Aug-2018 21:31:28 Europe/Rome] PHP Fatal error:  Uncaught Parse\ParseException: Object not found. in /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php:604
+Stack trace:
+#0 /home/cubyc873/public_html/mystream/src/Parse/ParseObject.php(540): Parse\ParseClient::_request('GET', 'classes/Streams...', 'r:8f276fafbd56c...', NULL, false)
+#1 /home/cubyc873/public_html/mystream/like-stream.php(31): Parse\ParseObject->fetch()
+#2 {main}
+  thrown in /home/cubyc873/public_html/mystream/src/Parse/ParseClient.php on line 604
+[28-Aug-2018 21:42:51 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/edit-profile.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/edit-profile.php on line 45
+[31-Aug-2018 18:07:42 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/user-profile.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/user-profile.php on line 42
+[31-Aug-2018 18:09:15 Europe/Rome] PHP Fatal error:  Uncaught Error: Call to a member function getURL() on null in /home/cubyc873/public_html/mystream/user-profile.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/cubyc873/public_html/mystream/user-profile.php on line 42
